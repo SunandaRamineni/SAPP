@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
-options: "222475fefb61af96a99dedc6933802ba"
-build_time: [1591713593, 202266000]
-inputs:
-  "/Users/rsunanda/Desktop/mygit/sapp/SAPP/SampleAppTests/SampleAppTests.swift": [1591708009, 523672802]
