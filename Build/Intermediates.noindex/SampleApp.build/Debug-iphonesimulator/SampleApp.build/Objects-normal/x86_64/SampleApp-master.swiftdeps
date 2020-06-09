@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "3713d0bd8fb6be8bb2f1a09a8d09f102"
+build_time: [1591713591, 844123000]
+inputs:
+  "/Users/rsunanda/Desktop/mygit/sapp/SAPP/SampleApp/ViewController.swift": [1591708008, 456700484]
+  "/Users/rsunanda/Desktop/mygit/sapp/SAPP/SampleApp/AppDelegate.swift": [1591708008, 451986762]
+  "/Users/rsunanda/Desktop/mygit/sapp/SAPP/SampleApp/SceneDelegate.swift": [1591708008, 454955528]

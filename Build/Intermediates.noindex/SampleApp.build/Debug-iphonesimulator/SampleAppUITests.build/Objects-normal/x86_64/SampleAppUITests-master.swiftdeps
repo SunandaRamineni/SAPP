@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "5a2741ec72a1649d7a6ce6b7509e9230"
+build_time: [1591713593, 201615000]
+inputs:
+  "/Users/rsunanda/Desktop/mygit/sapp/SAPP/SampleAppUITests/SampleAppUITests.swift": [1591708009, 559977697]

@@ -1,0 +1,11 @@
+- SampleApp/Analytics
+- SampleApp/Vendors
+- SampleApp/PXNetworking
+- SampleApp/Services
+- SampleApp/Extensions
+- SampleApp/Editor/Mapper
+- .*libPXNetworking.a
+- .*Controller.swift
+- .*View.swift
+- .*Window.swift
+- .*Router.swift
