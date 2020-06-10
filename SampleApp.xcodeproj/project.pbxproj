@@ -15,6 +15,14 @@
 		5F46408E248FC0E90043487A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F46408C248FC0E90043487A /* LaunchScreen.storyboard */; };
 		5F464099248FC0E90043487A /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F464098248FC0E90043487A /* SampleAppTests.swift */; };
 		5F4640A4248FC0E90043487A /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640A3248FC0E90043487A /* SampleAppUITests.swift */; };
+		5F4640B8248FF3D70043487A /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4640B2248FF3D70043487A /* SignIn.storyboard */; };
+		5F4640B9248FF3D70043487A /* SignInContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640B3248FF3D70043487A /* SignInContract.swift */; };
+		5F4640BA248FF3D70043487A /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640B4248FF3D70043487A /* SignInPresenter.swift */; };
+		5F4640BB248FF3D70043487A /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640B5248FF3D70043487A /* SignInRouter.swift */; };
+		5F4640BC248FF3D70043487A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640B6248FF3D70043487A /* SignInViewController.swift */; };
+		5F4640BD248FF3D70043487A /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640B7248FF3D70043487A /* SignInInteractor.swift */; };
+		5F4640BF248FF3EB0043487A /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640BE248FF3EB0043487A /* SignIn.swift */; };
+		5F4640C5248FF56A0043487A /* SignInPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4640C4248FF56A0043487A /* SignInPresenterTests.swift */; };
 		897A45F8884D6D5F422F5E19 /* Pods_SampleApp_SampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7320F1B19F7AE6D7E92F737 /* Pods_SampleApp_SampleAppUITests.framework */; };
 		9CD725858BF5B395FCC410DA /* Pods_SampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862EEA4E3CB14D4FE6CAEA87 /* Pods_SampleAppTests.framework */; };
 		AD9CEAB70D62071E04FE8204 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FA80125B45D9C1E8285C8 /* Pods_SampleApp.framework */; };
@@ -54,6 +62,14 @@
 		5F46409F248FC0E90043487A /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4640A3248FC0E90043487A /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		5F4640A5248FC0E90043487A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4640B2248FF3D70043487A /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		5F4640B3248FF3D70043487A /* SignInContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInContract.swift; sourceTree = "<group>"; };
+		5F4640B4248FF3D70043487A /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		5F4640B5248FF3D70043487A /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		5F4640B6248FF3D70043487A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F4640B7248FF3D70043487A /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		5F4640BE248FF3EB0043487A /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		5F4640C4248FF56A0043487A /* SignInPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenterTests.swift; sourceTree = "<group>"; };
 		741E9A827BF83AFE80630CEF /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		862EEA4E3CB14D4FE6CAEA87 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA46C34B7BD3E5F81BB110 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +142,7 @@
 		5F464080248FC0E80043487A /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F4640B1248FF3C20043487A /* SignIn */,
 				5F464081248FC0E80043487A /* AppDelegate.swift */,
 				5F464083248FC0E80043487A /* SceneDelegate.swift */,
 				5F464085248FC0E80043487A /* ViewController.swift */,
@@ -140,6 +157,7 @@
 		5F464097248FC0E90043487A /* SampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F4640C0248FF45D0043487A /* SignInTests */,
 				5F464098248FC0E90043487A /* SampleAppTests.swift */,
 				5F46409A248FC0E90043487A /* Info.plist */,
 			);
@@ -153,6 +171,28 @@
 				5F4640A5248FC0E90043487A /* Info.plist */,
 			);
 			path = SampleAppUITests;
+			sourceTree = "<group>";
+		};
+		5F4640B1248FF3C20043487A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5F4640B2248FF3D70043487A /* SignIn.storyboard */,
+				5F4640B3248FF3D70043487A /* SignInContract.swift */,
+				5F4640B4248FF3D70043487A /* SignInPresenter.swift */,
+				5F4640B5248FF3D70043487A /* SignInRouter.swift */,
+				5F4640B6248FF3D70043487A /* SignInViewController.swift */,
+				5F4640B7248FF3D70043487A /* SignInInteractor.swift */,
+				5F4640BE248FF3EB0043487A /* SignIn.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5F4640C0248FF45D0043487A /* SignInTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F4640C4248FF56A0043487A /* SignInPresenterTests.swift */,
+			);
+			path = SignInTests;
 			sourceTree = "<group>";
 		};
 		68381FDF23F7D9BA874AECA0 /* Pods */ = {
@@ -275,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4640B8248FF3D70043487A /* SignIn.storyboard in Resources */,
 				5F46408E248FC0E90043487A /* LaunchScreen.storyboard in Resources */,
 				5F46408B248FC0E90043487A /* Assets.xcassets in Resources */,
 				5F464089248FC0E80043487A /* Main.storyboard in Resources */,
@@ -371,9 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4640BC248FF3D70043487A /* SignInViewController.swift in Sources */,
+				5F4640BF248FF3EB0043487A /* SignIn.swift in Sources */,
+				5F4640BB248FF3D70043487A /* SignInRouter.swift in Sources */,
 				5F464086248FC0E80043487A /* ViewController.swift in Sources */,
+				5F4640B9248FF3D70043487A /* SignInContract.swift in Sources */,
+				5F4640BD248FF3D70043487A /* SignInInteractor.swift in Sources */,
 				5F464082248FC0E80043487A /* AppDelegate.swift in Sources */,
 				5F464084248FC0E80043487A /* SceneDelegate.swift in Sources */,
+				5F4640BA248FF3D70043487A /* SignInPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4640C5248FF56A0043487A /* SignInPresenterTests.swift in Sources */,
 				5F464099248FC0E90043487A /* SampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
