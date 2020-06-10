@@ -38,5 +38,9 @@ class SignInPresenter: SignInPresenting {
         }
         return !signIn.name.isEmpty && !signIn.password.isEmpty
     }
+    
+    func username() -> String? {
+        return signIn?.name
+    }
    
 }
