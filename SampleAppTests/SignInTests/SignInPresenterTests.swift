@@ -12,12 +12,34 @@ import XCTest
 class SignInPresenterTests: XCTestCase {
     
     var sut: SignInPresenting!
+    var mockSignInDisplay = MockSignInDisplay()
     
     override func setUp() {
         sut = SignInPresenter()
     }
+    
+    func test_view_set_up_ui_on_presenter_view_did_load() {
+        //Arrange
+        sut.view = mockSignInDisplay
+        
+        //Act
+        sut.viewDidLoad()
+        
+        //Assert
+        XCTAssertEqual(mockSignInDisplay.setupUICallCount, 1)
+    }
 
-    func test_is_valid() {
+    func test_is_valid_false() {
+        //Arrange
+        sut.setCred(signIn: nil)
+        
+        //Act
+        
+        //Assert
+        XCTAssertFalse(sut.isValid())
+    }
+    
+    func test_is_valid_true() {
         //Arrange
         sut.setCred(signIn: SignIn(name: "name", password: "password"))
         

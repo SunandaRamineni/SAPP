@@ -21,7 +21,7 @@ class SignInPresenter: SignInPresenting {
         view?.setupUI()
     }
     
-    func setCred(signIn: SignIn) {
+    func setCred(signIn: SignIn?) {
         self.signIn = signIn
     }
     
