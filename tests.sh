@@ -1,4 +1,4 @@
 #!/bin/sh
 
-fastlane tests
+bundle exec fastlane tests
 bundle exec danger

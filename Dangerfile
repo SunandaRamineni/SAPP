@@ -15,5 +15,6 @@ fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 xcov.report(
    scheme: 'SampleApp',
    workspace: 'SampleApp.xcworkspace',
+   ignore_file_path: "fastlane/.xcovignore",
    minimum_coverage_percentage: 5.0
 )

@@ -21,11 +21,5 @@ platform :ios do
     run_tests(workspace: "SampleApp.xcworkspace",
               devices: ["iPhone 11"],
               scheme: "SampleApp")
-    xcov(
-      workspace: "SampleApp.xcworkspace",
-      scheme: "SampleApp",
-      ignore_file_path: "fastlane/.xcovignore",
-      output_directory: "fastlane/xcov_output",
-      minimum_coverage_percentage: 5.0 )
   end
 end
