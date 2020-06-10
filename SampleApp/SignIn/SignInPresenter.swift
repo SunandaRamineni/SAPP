@@ -31,5 +31,12 @@ class SignInPresenter: SignInPresenting {
         }
         return true
     }
+    
+    func shouldLogin() -> Bool {
+        guard let signIn = signIn else {
+            return false
+        }
+        return !signIn.name.isEmpty && !signIn.password.isEmpty
+    }
    
 }
