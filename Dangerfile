@@ -16,5 +16,6 @@ xcov.report(
    scheme: 'SampleApp',
    workspace: 'SampleApp.xcworkspace',
    ignore_file_path: "fastlane/.xcovignore",
+   only_project_targets: true,
    minimum_coverage_percentage: 5.0
 )
