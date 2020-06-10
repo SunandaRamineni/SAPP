@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='SampleAppUITests.xctest' tests='4' failures='0'>
-  <testsuite name='SampleAppTests.SampleAppTests' tests='2' failures='0'>
-    <testcase classname='SampleAppTests.SampleAppTests' name='testExample' time='0.003'/>
-    <testcase classname='SampleAppTests.SampleAppTests' name='testPerformanceExample' time='0.486'/>
+<testsuites name='SampleAppUITests.xctest' tests='3' failures='0'>
+  <testsuite name='SampleAppTests.SignInPresenterTests' tests='1' failures='0'>
+    <testcase classname='SampleAppTests.SignInPresenterTests' name='test_is_valid' time='0.002'/>
   </testsuite>
   <testsuite name='SampleAppUITests.SampleAppUITests' tests='2' failures='0'>
-    <testcase classname='SampleAppUITests.SampleAppUITests' name='testExample' time='3.149'/>
-    <testcase classname='SampleAppUITests.SampleAppUITests' name='testLaunchPerformance' time='17.950'/>
+    <testcase classname='SampleAppUITests.SampleAppUITests' name='testExample' time='3.279'/>
+    <testcase classname='SampleAppUITests.SampleAppUITests' name='testLaunchPerformance' time='17.636'/>
   </testsuite>
 </testsuites>
