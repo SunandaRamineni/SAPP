@@ -4,4 +4,4 @@
 bundle --version
 bundle update
 bundle exec fastlane tests
-#/usr/bin/bundle exec /usr/local/bin/danger
+bundle exec danger --fail-on-errors=true
