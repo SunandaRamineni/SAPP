@@ -1,0 +1,13 @@
+name: SAPP
+
+on: [push, pull_request]
+ 
+jobs:
+  test:
+    name: SAPP Tests
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Build and test
+        run: sh tests.sh
