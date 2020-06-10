@@ -2,6 +2,6 @@
 
 #bundle exec fastlane tests
 /usr/bin/bundle --version
-/usr/bin/bundle install
+/usr/bin/bundle update
 fastlane tests
-/usr/bin/bundle exec /usr/local/bin/danger --fail-on-errors=true
+/usr/bin/bundle exec /usr/local/bin/danger
