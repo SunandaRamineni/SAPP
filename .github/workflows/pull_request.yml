@@ -12,4 +12,4 @@ jobs:
       - name: Build and test
         run: sh tests.sh
         env:
-            DANGER_GITHUB_API_TOKEN: 36bff314f95f4944ce745a617ef5d882e65c5b2a
+            DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
