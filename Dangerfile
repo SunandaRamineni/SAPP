@@ -12,10 +12,15 @@ warn("Big PR") if git.lines_of_code > 500
 fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
-xcov.report(
-   scheme: 'SampleApp',
-   workspace: 'SampleApp.xcworkspace',
-   ignore_file_path: "fastlane/.xcovignore",
-   only_project_targets: true,
-   minimum_coverage_percentage: 5.0
+# Generate report
+report = xcov.produce_report(
+  scheme: 'EasyPeasy',
+  workspace: 'Example/EasyPeasy.xcworkspace',
+  exclude_targets: 'Demo.app',
+  minimum_coverage_percentage: 90
 )
+
+# Do some custom filtering with the report here
+
+# Post markdown report
+xcov.output_report(report)
