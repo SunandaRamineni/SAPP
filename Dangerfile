@@ -13,13 +13,10 @@ fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
 # Generate report
-report = xcov.produce_report(
+xcov.report(
    scheme: 'SampleApp',
    workspace: 'SampleApp.xcworkspace',
    ignore_file_path: "fastlane/.xcovignore",
    only_project_targets: true,
    minimum_coverage_percentage: 70.0
 )
-
-# Post markdown report
-xcov.output_report(report)
