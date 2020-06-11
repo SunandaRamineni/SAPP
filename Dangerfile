@@ -18,5 +18,7 @@ xcov.report(
    workspace: 'SampleApp.xcworkspace',
    ignore_file_path: "fastlane/.xcovignore",
    only_project_targets: true,
+   slack_url: 'https://app.slack.com/client/T055A2VKA/CPGNZEGAC',
+   slack_channel: '#px-mobile-develop',
    minimum_coverage_percentage: 30.0
 )
