@@ -10,6 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build and test
-        run: sh tests.sh
+        run:
+            bundle update
+            bundle exec fastlane tests
+            bundle exec danger --fail-on-errors=true
         env:
             DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
