@@ -48,5 +48,14 @@ class SignInPresenterTests: XCTestCase {
         //Assert
         XCTAssertTrue(sut.isValid())
     }
+    
+    func test_username() {
+        //Arrange
+        
+        //Act
+        
+        //Assert
+        XCTAssertNil(sut.username())
+    }
 
 }

@@ -22,6 +22,7 @@ protocol SignInPresenting: class {
     func viewDidLoad()
     func isValid() -> Bool
     func setCred(signIn: SignIn?)
+    func username() -> String?
 }
 
 // MARK: Interactor -
